@@ -16,4 +16,6 @@
     <string name="phone_number">Phone number</string>
     <string name="name">Name</string>
     <string name="find">Find</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
