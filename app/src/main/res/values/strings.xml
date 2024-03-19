@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Contact Manager</string>
+    <string name="register">Register</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="log_in">Log In</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="new_user">New User?</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="add_new_contact">Add New Contact</string>
+    <string name="add">ADD</string>
+    <string name="find_contact">Find Contact</string>
+    <string name="phone_number">Phone number</string>
+    <string name="name">Name</string>
+    <string name="find">Find</string>
+</resources>

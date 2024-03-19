@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/outline"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30sp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="280sp"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15sp"
+            android:textColor="@color/white"
+            android:text="@string/register" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:helperText="*unique"
+            app:startIconDrawable="@drawable/baseline_person_24">
+
+            <EditText
+                android:id="@+id/editTextUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#CACACA"
+                android:textSize="23sp"
+                android:hint="@string/username" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:helperText="*required"
+            app:startIconDrawable="@drawable/baseline_email_24">
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textColor="#CACACA"
+                android:textSize="23sp"
+                android:hint="@string/e_mail_address" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:endIconMode="password_toggle"
+            app:helperText="*required"
+            app:startIconDrawable="@drawable/baseline_lock_24">
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="#CACACA"
+                android:textSize="23sp"
+                android:hint="@string/password" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="200sp"
+            android:layout_weight="1"
+            android:layout_height="0sp"
+            android:backgroundTint="#233AB1"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:text="Sign Up" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:text="@string/already_have_account" />
+
+            <Button
+                android:id="@+id/btnLogIn"
+                android:layout_width="90sp"
+                android:layout_height="40sp"
+                android:backgroundTint="#233AB1"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="@string/log_in" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/stylish"
+    tools:context=".WelcomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/outline"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30sp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="280sp"
+            android:layout_height="wrap_content"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15sp"
+            android:textColor="@color/white"
+            android:text="Select" />
+
+        <Button
+            android:id="@+id/btnAddContact"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#233AB1"
+            android:textSize="20sp"
+            android:text="@string/add_contact" />
+
+        <Button
+            android:id="@+id/btnFindContact"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#233AB1"
+            android:textSize="20sp"
+            android:text="Find Contact" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
