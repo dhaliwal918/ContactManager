@@ -47,7 +47,10 @@ class LogInActivity : AppCompatActivity() {
             }
         }
 
-
+        binding.txtForgotPassword.setOnClickListener {
+            val intent = Intent(applicationContext , Forgot_Password_Activity::class.java)
+            startActivity(intent)
+        }
 
 
     }
